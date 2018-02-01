@@ -9,20 +9,20 @@ package algus;
  * Esimene katsetus, muutujad, valik, massiv
  * @author if17
  */
+
 public class Algus {
-    public static void ilmaKommentaar(){
-        int temperatuur=-2;
+    public static void ilmaKommentaar(int temperatuur){
         if(temperatuur>0){System.out.println("Sulab");}
         else{System.out.println("Jäätab");}
     }
-    }
+    
     /**
      * Programmi töö alguskoht
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         System.out.println("Hello, Web!");
-        ilmaKommentaar();
+        ilmaKommentaar(3);
     }
     
 }
