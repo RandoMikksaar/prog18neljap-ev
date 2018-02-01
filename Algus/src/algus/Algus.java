@@ -5,6 +5,7 @@
  */
 package algus;
 
+
 /**
  * Esimene katsetus, muutujad, valik, massiv
  */
